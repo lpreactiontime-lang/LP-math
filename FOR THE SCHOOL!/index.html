@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LP-Math</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>LP-Math</h1>
+
+  <div class="controls">
+    <input id="gameName" placeholder="Game Name">
+    <input id="gameURL" placeholder="Game URL">
+    <button onclick="addGame()">Add Game</button>
+  </div>
+
+  <div id="gameList" class="game-grid"></div>
+
+  <div id="viewer" class="viewer hidden">
+    <div class="viewer-top">
+      <span>LP-Math Game Mode</span>
+      <button onclick="closeGame()">Close</button>
+    </div>
+    <iframe id="gameFrame"></iframe>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
