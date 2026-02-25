@@ -1,2 +1,0 @@
-# LP-math
-GN-MATH IS BLOCKED. FOR THE SCHOOL!!!
